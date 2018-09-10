@@ -69,6 +69,9 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXTRA_LANGUAGES := true
 
+# Blacklist device that is identified as mouse (to hide cursor)
+TW_INPUT_BLACKLIST := "hbtp_vm"
+
 # Encryption support
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
